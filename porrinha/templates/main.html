@@ -7,11 +7,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="{% static '/style.css' %}">
-    <title>Document</title>
+    <title>NASA</title>
 </head>
 <body>
+        <nav>
+                <a href="/"><img src="https://cdn.iconscout.com/icon/free/png-256/nasa-282190.png" alt=""></a>
+                <a href="/sobre">Quem somos</a>
+                <a href="https://www.nasa.gov/">Curiosidades</a>
+                <a href="https://www.nasa.gov/about/contact/index.html">Contatos</a>
+            </nav>
     {% block content %}
 
     {% endblock %}
+
+    <footer>
+        <div>
+            <a href="https://www.facebook.com/NASA/"><img src="{% static '/imgs/facebook.png'%}" alt=""></a>
+            <a href="https://www.linkedin.com/company/nasa/"><img src="{% static '/imgs/linkedin.png'%}" alt=""></a>
+            <a href="https://twitter.com/nasa"><img src="{% static '/imgs/twitter.png'%}" alt=""></a>
+        </div>
+        <p>Reserved Copyright©</p>
+    </footer>
 </body>
 </html>
