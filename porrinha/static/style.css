@@ -59,7 +59,7 @@ footer{
 footer div{
     display: flex;
     justify-content: space-around;
-    width: 20vw;
+    width: 15vw;
 }
 
 .sobre{
@@ -76,7 +76,7 @@ footer div{
 }
 
 .sobre p{
-    color: white;
+    color: rgb(255, 255, 255);
     height: 15vh;
     width: 40vw;
     margin-bottom: 10vh;
